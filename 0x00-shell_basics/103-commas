@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%s\n' . .. * | LC_COLLATE=C sort | paste -sd ',' -
+ls -amvp 
