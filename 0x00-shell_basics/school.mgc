@@ -1,2 +1,2 @@
 #!/bin/bash
-0 string SCHOOL School data file
+MAGIC_CONTENT="0 string SCHOOL School data file\n"
