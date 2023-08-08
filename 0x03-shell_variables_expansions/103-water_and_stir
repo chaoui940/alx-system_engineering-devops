@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "ibase=${#WATER};obase=${#base_mapping[@]};$((($(echo $WATER | sed 's/./&+/g; s/.$//')) + ($(echo $STIR | sed 's/./&+/g; s/.$//'))))" | bc | tr -d '\n' | sed 's/./${base_mapping[&]}/g'
